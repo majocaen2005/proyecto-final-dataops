@@ -3,7 +3,7 @@ import os
 import sys
 from datetime import datetime
 
-archivo_origen = r"C:\Users\majoc\Desktop\proyecto parcial\ventas_electronica_parcial.csv"
+archivo_origen = "ventas_electronica_parcial.csv"
 archivo_destino = "data/raw/ventas.csv"
 
 print("=" * 60)
