@@ -6,7 +6,10 @@ pipeline {
     }
     stages {
         stage('Inicializar Entorno') {
-            steps { bat "\"${PYTHON}\" scripts/1_inicializar.py" }
+            steps { 
+                bat "\"${PYTHON}\" -m pip install psycopg2-binary"
+                bat "\"${PYTHON}\" scripts/1_inicializar.py" 
+            }
         }
         stage('Extraccion (Raw)') {
             steps { bat "\"${PYTHON}\" scripts/2_extraer.py" }

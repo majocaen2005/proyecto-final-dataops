@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres_proyecto_final
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: laboratorio
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_proyecto_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_proyecto_data:
