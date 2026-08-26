@@ -1,0 +1,30 @@
+{
+    "total_registros": 17312,
+    "filas_duplicadas": 0,
+    "valores_nulos": {
+        "Nombre Cliente": 12,
+        "Genero": 2,
+        "Pais": 1,
+        "Precio USD": 0,
+        "Unidades Vendidas": 0,
+        "Fecha Venta": 0,
+        "Familia de Productos": 0,
+        "Año": 0,
+        "Ventas": 0
+    },
+    "distribucion_familias": {
+        "Smartphones": 2478,
+        "Consolas": 2481,
+        "Desktops": 2428,
+        "Tablets": 2529,
+        "Cámaras": 2500,
+        "Laptops": 2393,
+        "Televisores": 2490,
+        "Cables": 2,
+        "Monitores": 2,
+        "Audio": 4,
+        "Accesorios": 3,
+        "Error": 1,
+        " Laptops ": 1
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "timestamp": "2026-08-25T18:43:27.191293",
+    "pipeline_status": "SUCCESS",
+    "total_registros_iniciales": 17312,
+    "quality_score_percent": 99.69,
+    "registros_basura_descartados": 53,
+    "registros_finales_produccion": 17259,
+    "reconciliacion_aprobada": true
+}
